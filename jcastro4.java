@@ -4,17 +4,21 @@ public class jcastro4
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter a choice: 1. Say hello, 2.Say Bye, 3.Say Hola, 4.Say Adios");
+		System.out.println("Choice 1");
+		System.out.println("Choice 2");
+		System.out.println("Choice 3");
+		System.out.println("Choice 4");
+
 		int choice = input.nextInt();
 
 		if(choice ==1){
-			System.out.println("Hello, Hello, Hello");
+			System.out.println("The Grass is always greener");
 		}else if(choice ==2){
-			System.out.println("BYE, Bye, Bye");
+			System.out.println("Be the change you wish to see");
 		}else if(choice ==3){
-			System.out.println("Hola, Hola, Hola");
+			System.out.println("BE yourself, everybody else is already taken");
 		}else{
-			System.out.println("Adios, Adios, Adios");
+			System.out.println("Without Music, life would be a mistake");
 		}
 	}
 }
