@@ -1,3 +1,8 @@
+//CSC 321
+//Joel Castro
+//Assignment 4
+
+
 import java.util.Scanner;
 public class jcastro4
 {
